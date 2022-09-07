@@ -41,13 +41,9 @@ a:hover {
 }
 
 :root{
-  --fz12: 12px;
-  --fz16: 16px;
-  --fz18: 18px;
-  --fz24: 24px;
-  --fz30: 30px;
-  --fz34: 34px;
-  --fz40: 40px;
+  --big-title: 24px;
+  --bigger-title: 28px;
+  /* --smail-title: 18px; */
   --color2: red;
   --main-color: #1ca8fe;
   --main--light: rgb(246, 98, 98);

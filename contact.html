@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="public/images/log2.gif" type="image/x-icon" />
-    <title>Liên hệ</title>
+    <title>Giới thiệu</title>
     <script src="public/js/jquery-3.6.0.min.js"></script>
     <link rel="stylesheet" href="public/bootstrap/css/bootstrap.min.css" />
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
@@ -24,14 +24,14 @@
 </head>
 
 <body>
-    <h1>Liên hệ</h1>
+    <h1>Trang chủ</h1>
 
     <header>
         <div class="bg_header">
             <div class="container">
                 <div class="row header">
                     <div class="col-lg-3">
-                        <img class="logo" src="public/images/logo.gif" alt="">
+                        <div class="logo-block"><img class="logo" src="public/images/logo.gif" alt=""></div>
                     </div>
                     <div class="col-lg-6">
                         <img src="public/images/imghd.png" alt="">
@@ -92,12 +92,143 @@
                 </div>
             </div>
         </div>
+        <div class="menu-mobile">
+            <div class="container">
+                <div class="menu-top">
+                    <div class="row align-items-center">
+                        <div class="col-2">
+                            <div class="nav-mobile">
+                                <div class="icon">
+                                    <span class="icon__bar"></span>
+                                    <span class="icon__bar"></span>
+                                    <span class="icon__bar"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-10">
+                            <div class="item-right">
+                                <div class="search">
+                                    <input type="text" placeholder="Tìm kiếm...">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu menu_mobile">
+                    <ul>
+                        <li>
+                            <a href="index.html">Trang chủ</a>
+                        </li>
+                        <li>
+                            <a href="about.html">Giới thiệu</a>
+                        </li>
+                        <li>
+                            <a href="product.html">Sản phẩm</a>
+                        </li>
+                        <li>
+                            <a href="video.html">Video</a>
+                        </li>
+                        <li>
+                            <a href="recruit.html">Tuyển dụng</a>
+                        </li>
+                        <li>
+                            <a href="news.html">Tin tức</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Liên hệ</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </header>
 
 
-    <main id="contact">
-        <div class="notifi">
+    <main id="about" class="contact">
+        <!-- <div class="notifi">
             <p>Trang này hiện đang cập nhật</p>
+        </div> -->
+        <section id="wrap-banner">
+            <div class="banner__block">
+                <div class="items banner">
+                    <div class="img">
+                        <img src="public/images/banner4.jpg" alt="">
+                    </div>
+                    <div class="img">
+                        <img src="public/images/banner2.jpg" alt="">
+                    </div>
+                    <div class="img">
+                        <img src="public/images/banner3.png" alt="">
+                    </div>
+                    <div class="img">
+                        <img src="public/images/banner5.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="container">
+            <div class="title">
+                <h4>Liên hệ</h4>
+            </div>
+            <div class="content">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="info-conpany">
+                            <h2>CÔNG TY TNHH SẢN XUẤT NHÃN MÁC <span>QC PRINTING</span></h2>
+                            <p class="italic"><i>( Chuyên sản xuất nhãn dệt, nhãn in, thẻ treo, decal barcode, nhãn ép chuyển nhiệt
+                                    xuất khẩu ) </i></p>
+                            <p><strong>Địa chỉ: </strong><span>42/16 Bình Hưng Hòa A, Tân Quý, Tân Phú, TP. Hồ Chí
+                                    Minh</span></p>
+                            <div class="block">
+                                <p><strong>ĐT: </strong><span>090 292 3383 &nbsp;&nbsp;&nbsp;</span></p>
+                                <p><strong>Fax: </strong><span>090 292 3383 &nbsp;&nbsp;&nbsp;</span></p>
+                                <p><strong>Mã số thuế: </strong><span>090 292 3383</span></p>
+                            </div>
+                            <div class="block">
+                                <p><strong>Website: </strong><span>www.nhanmacqc.vn &nbsp;&nbsp;&nbsp;</p>
+                                <p></span> <strong>Email: </strong><span>nhanmacqc@gamil.com</span></p>
+                            </div>
+                            <p>(<strong>Lưu ý:</strong> Nếu quý khách cần gấp vui lòng liên hệ trực tiếp qua số điện thoại <a href="tel: 0902923383">090 292 3383</a> để được tư vấn ngay)</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <form action="" method="">
+                            <div class="form-group">
+                                <p>Họ và tên:</p>
+                                <input type="text">
+                            </div>
+                            <div class="form-group">
+                                <p>Số điện thoại:</p>
+                                <input type="text">
+                            </div>
+                            <div class="form-group">
+                                <p>Email:</p>
+                                <input type="email">
+                            </div>
+                            <div class="form-group">
+                                <p>Chủ đề:</p>
+                                <input type="text">
+                            </div>
+                            <div class="form-group">
+                                <p>Nội dung:</p>
+                                <textarea name="" id="" cols="30" rows="5"></textarea>
+                            </div>
+
+                            <button class="send" type="submit">Gửi</button>
+                        </form>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="map">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7838.53047687902!2d106.607873!3d10.790986!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x33a04f13f4999c2e!2zTmjDo24gTcOhYyBRQw!5e0!3m2!1svi!2s!4v1662531234954!5m2!1svi!2s"
+                                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
 
@@ -199,7 +330,9 @@
             </li>
         </ul>
     </section>
-    <script type="text/javascript" src="https://web.cmbliss.com/webtools/hotline/js/hotline.js"></script><script type="text/javascript">$("body").hotline({phone:"090 292 3383",p_right:true,p_bottom:true,bottom:0,p_left:false,left:0,bg_color:"#1ca8fe",abg_color:"rgba(57, 174, 246, 0.866)",show_bar:true,position:"fixed",});</script>
+    <script type="text/javascript" src="https://web.cmbliss.com/webtools/hotline/js/hotline.js"></script>
+    <script
+        type="text/javascript">$("body").hotline({ phone: "090 292 3383", p_right: true, p_bottom: true, bottom: 0, p_left: false, left: 0, bg_color: "#1ca8fe", abg_color: "rgba(57, 174, 246, 0.866)", show_bar: true, position: "fixed", });</script>
     <!-- End hotline -->
 
     <script src="public/bootstrap/js/bootstrap.min.js"></script>
