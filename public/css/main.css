@@ -1197,6 +1197,10 @@ align-items: center; */
     .page-product .category{
         margin-top: 0px;
     }
+    #product .items .product_block .content {
+        padding: 0 18px;
+        
+    }
 }
 
 /* End Mobile */
