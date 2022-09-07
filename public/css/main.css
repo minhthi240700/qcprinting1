@@ -456,6 +456,10 @@ section{
 #home #news .block {
     margin-bottom: 15px;
 }
+#home #news .block a:hover  .name{
+    color: rgb(2, 2, 137);
+    transition: color .25s linear;
+}
 #home #news .block .img{
     /* position: relative;
     width: 100%;
@@ -521,6 +525,9 @@ section{
     -webkit-line-clamp: 3;
     display: -webkit-box;
     -webkit-box-orient: vertical; 
+}
+#news .slick-initialized .slick-slide{
+    padding: 0 15px;
 }
 #wrap-banner .slick-initialized .slick-slide{
     padding: 0;
